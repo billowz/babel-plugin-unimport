@@ -1,0 +1,41 @@
+{
+	"name": "babel-plugin-undevlevel",
+	"version": "0.0.1",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"jest": {
+		"transform": {
+			"^.+\\.js$": "babel-jest"
+		},
+		"testEnvironment": "node",
+		"collectCoverage": true,
+		"collectCoverageFrom": [
+			"src/**/*.js"
+		],
+		"coverageDirectory": "./cover"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/tao-zeng/devlevel.git"
+	},
+	"keywords": [
+		"dev",
+		"log",
+		"assert"
+	],
+	"author": "tao.zeng.zt@gmail.com",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/tao-zeng/devlevel/issues"
+	},
+	"homepage": "https://github.com/tao-zeng/devlevel#readme",
+	"devDependencies": {
+		"babel-core": "^6.26.0",
+		"babel-jest": "^22.0.4",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-stage-2": "^6.24.1"
+	}
+}
