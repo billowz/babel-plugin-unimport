@@ -1,7 +1,7 @@
 {
-	"name": "babel-plugin-undevlevel",
+	"name": "babel-plugin-unimport",
 	"version": "0.0.1",
-	"description": "",
+	"description": "remove some libary code on babel build",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest"
@@ -10,32 +10,28 @@
 		"transform": {
 			"^.+\\.js$": "babel-jest"
 		},
-		"testEnvironment": "node",
-		"collectCoverage": true,
-		"collectCoverageFrom": [
-			"src/**/*.js"
-		],
-		"coverageDirectory": "./cover"
+		"testEnvironment": "node"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/tao-zeng/devlevel.git"
+		"url": "git+https://github.com/tao-zeng/babel-plugin-unimport.git"
 	},
 	"keywords": [
-		"dev",
+		"remove imported",
 		"log",
 		"assert"
 	],
 	"author": "tao.zeng.zt@gmail.com",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/tao-zeng/devlevel/issues"
+		"url": "https://github.com/tao-zeng/babel-plugin-unimport/issues"
 	},
-	"homepage": "https://github.com/tao-zeng/devlevel#readme",
+	"homepage": "https://github.com/tao-zeng/babel-plugin-unimport#readme",
 	"devDependencies": {
 		"babel-core": "^6.26.0",
 		"babel-jest": "^22.0.4",
 		"babel-preset-env": "^1.6.1",
-		"babel-preset-stage-2": "^6.24.1"
+		"babel-preset-stage-2": "^6.24.1",
+		"jest": "^22.0.4"
 	}
 }
