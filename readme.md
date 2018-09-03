@@ -19,7 +19,7 @@ npm install --save-dev babel-plugin-unimport
 {
   "plugins": [
     ["unimport", {
-      "libary": {
+      "library": {
         "devlevel": ["log", "debug", "info", "warn", "error"]
       }
     }]
