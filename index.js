@@ -68,7 +68,7 @@ module.exports = function(babel) {
 	}
 	let libs
 	return {
-		name: "ast-transform", // not required
+		name: "unimport",
 		visitor: {
 			Program(nodePath, pluginPass) {
 				const library = pluginPass.opts.library || {}
@@ -129,7 +129,6 @@ module.exports = function(babel) {
 				if (!nodePath.get('specifiers').length) {
 					nodePath.remove()
 				}
-				console.log(`remove: ${formatSpecified(specified, libName)}`)
 			}
 		}
 	}

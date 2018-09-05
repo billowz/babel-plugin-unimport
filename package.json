@@ -1,6 +1,6 @@
 {
 	"name": "babel-plugin-unimport",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "remove some libary code on babel build",
 	"main": "index.js",
 	"scripts": {
@@ -17,11 +17,10 @@
 		"url": "git+https://github.com/tao-zeng/babel-plugin-unimport.git"
 	},
 	"keywords": [
-		"remove imported",
-		"log",
-		"assert"
+		"babel-plugin",
+		"unimport"
 	],
-	"author": "tao.zeng.zt@gmail.com",
+	"author": "tao.zeng.zt@qq.com",
 	"license": "MIT",
 	"bugs": {
 		"url": "https://github.com/tao-zeng/babel-plugin-unimport/issues"
